@@ -1,3 +1,8 @@
+// blog html file added
+document.getElementById('blog-page').addEventListener('click', function () {
+  window.location.href = 'blog.html';
+});
+
 // global variable declaration
 let count = 0;
 let timer;
