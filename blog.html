@@ -25,57 +25,70 @@
 <body>
 
     <!----- Blog text section start ----->
-    <section class="bg-info pb-5">
+    <section class="bg-success text-white pb-5">
         <div class="container">
-            <div class="row justify-content-evenly">
-                <div class="col col-lg-12 col-md-10 col-sm-12">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
 
-                    <h1 class="pt-5">What are the differences between map, filter, forEach, and find ?</h1>
-                    <h5>1. Map:<br>The map() method creates a new array with the results of calling a provided function
+                    <h2 class="pt-5 pb-3 text-warning">What are the differences between map, filter, forEach, and find ?
+                    </h2>
+                    <p><span class="fw-bold fs-5">1. Map :</span><br>The map() method creates a new array with the
+                        results of calling a provided function
                         on every element in the original array. It returns a new array with the same number of elements
                         as the original array, but with each element transformed based on the function provided. The
-                        original array is not modified.<br><br> 2. Filter:<br>The filter() method creates a new array
+                        original array is not modified. <br><br> <span class="fw-bold fs-5">2. Filter :</span><br>The
+                        filter() method creates a new array
                         with all elements that pass the test implemented by the provided function. It returns a new
                         array with only the elements that meet the condition specified in the function. The original
-                        array is not modified. <br><br> 3. forEach:<br>The forEach() method executes a provided function
+                        array is not modified. <br><br> <span class="fw-bold fs-5">3. forEach :</span><br>The forEach()
+                        method executes a provided function
                         once for each array element. It does not return anything and is used when we want to perform a
-                        certain action for each element in the array. <br><br> 4. Find: <br>The find() function returns
+                        certain action for each element in the array. <br><br> <span class="fw-bold fs-5">4. Find
+                            :</span><br>The find() function returns
                         the first element in an array that satisfies a given condition specified in a function. It
-                        returns undefined if no element satisfies the condition.</h5>
+                        returns undefined if no element satisfies the condition.
+                    </p>
 
-                    <h1 class="pt-5">What are the differences between Local Storage, Session Storage and Cookies ?</h1>
-                    <h5>1. Local Storage:<br>Local storage is a feature introduced in HTML5 that allows websites to
+
+                    <h2 class="pt-5 pb-3 text-warning">What are the differences between Local Storage, Session Storage
+                        and Cookies ?
+                    </h2>
+                    <p><span class="fw-bold fs-5">1. Local Storage :</span><br>Local storage is a feature introduced in
+                        HTML5 that allows websites to
                         store data on a user's computer. The data stored in local storage is persistent, which means it
                         will remain even after the browser is closed. Local storage has a larger storage capacity than
                         cookies and session storage, typically around 5-10 MB. Local storage data is accessible by any
-                        page from the same origin.<br><br>2. Session Storage:<br>Session storage is also introduced in
+                        page from the same origin. <br><br> <span class="fw-bold fs-5">2. Session Storage
+                            :</span><br>Session storage is also introduced in
                         HTML5, and it is similar to local storage. The main difference between local storage and session
                         storage is that session storage data is cleared when the user closes the browser. Session
                         storage is useful for storing temporary data that needs to be kept around for a short period,
                         such as form data or user preferences. Session storage also has a larger storage capacity than
                         cookies, typically around 5-10 MB. Session storage data is accessible by any page from the same
-                        origin and within the same session.<br><br>3. Cookies:<br>Cookies are small text files that are
+                        origin and within the same session. <br><br> <span class="fw-bold fs-5">3. Cookies
+                            :</span><br>Cookies are small text files that are
                         stored on the user's computer by websites. Cookies are often used to store user preferences or
                         login information, and they can also be used for tracking user behavior across websites. Cookies
                         have a smaller storage capacity than local storage and session storage, typically around 4 KB.
                         Cookies can be set with an expiration date, after which they will be deleted. Cookies can be
                         accessed by any page from the same domain that created them.
-                    </h5>
+                    </p>
 
-                    <h1 class="pt-5">What is event loop in JavaScript?</h1>
-                    <h5>
+                    <h2 class="pt-5 pb-3 text-warning">What is event loop in JavaScript?</h2>
+                    <p>
                         Event loop in JavaScript is a mechanism through which the 'calls waiting for execution' in the
                         callback queue/job queue can be put on the call stack. For any event from the callback queue/job
                         queue to come to call stack, the call stack will have to be empty.
-                    </h5>
+                    </p>
 
-                    <h1 class="pt-5">What is the function of quizTimer function?</h1>
-                    <h5>This code snippet seems to be a quiz application where users can choose options for multiple
+                    <h2 class="pt-5 pb-3 text-warning">What is the function of quizTimer function?</h2>
+                    <p>This code seems to be a quiz application where users can choose options for multiple
                         questions, and their answers will be saved and displayed on the screen. Users can also see their
-                        quiz time remaining and the number of questions they have answered correctly.</h5>
+                        quiz time remaining and the number of questions they have answered correctly.
+                    </p>
 
-                    <h1 class="pt-5">What is the function of chooseQuiz function?</h1>
-                    <h5>The chooseQuiz function is responsible for selecting or choosing the answer for a specific
+                    <h2 class="pt-5 pb-3 text-warning">What is the function of chooseQuiz function?</h2>
+                    <p>The chooseQuiz function is responsible for selecting or choosing the answer for a specific
                         question in a quiz. <br><br>
                         When a user clicks on an option in the quiz, the chooseQuiz function is called with two
                         arguments: the index of the quiz question and the given answer. <br><br>
@@ -85,7 +98,7 @@
                         new object to the answers array with the id of the quiz question and the given answer. <br><br>
                         Finally, the displayAnswers function is called with the updated answers array to display the
                         current status of all questions and answers.
-                    </h5>
+                    </p>
 
                 </div>
             </div>
